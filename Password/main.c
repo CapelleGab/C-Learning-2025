@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int ask_lenght_password(); 
+int ask_lenght_password();
 char *generate_password(int longueur);
 
 int main(void) {
@@ -17,7 +17,7 @@ int ask_lenght_password() {
   int lenght;
 
   printf("Saississez une longueur de mot de passe (1, 2, 5, ...) \n");
-  
+
   fgets(input, sizeof(input), stdin);
   lenght = atoi(input);
 
